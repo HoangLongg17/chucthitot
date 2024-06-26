@@ -1,0 +1,52 @@
+body {
+  background-image:url(anhthi.jpg) ;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
+  background-color: blue;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-device-pixel-ratio: 3) {
+
+  /* CSS dành cho iPhone XS */
+  
+}
+.chuc {
+  position: absolute;
+  bottom: 25%; /* 1/3 từ dưới lên */
+  width: 100%;
+  text-align: center; /* Căn giữa theo chiều ngang */
+  transform: translateY(50%);
+  font-size: 24px; /* Điều chỉnh kích thước font nếu cần */
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  bottom: 25%;
+}
+
+.button {
+  background-color: #4CAF50; /* Màu nền */
+  border: none;
+  color: white; /* Màu chữ */
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer; /* Thay đổi con trỏ khi hover */
+  border-radius: 12px; /* Bo tròn góc */
+  bottom: 25%;
+  transition: background-color 0.3s ease; /* Hiệu ứng chuyển đổi màu nền */
+}
+
+.button:hover {
+  background-color: #45a049; /* Màu nền khi hover */
+}
